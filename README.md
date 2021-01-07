@@ -1,2 +1,3 @@
-# web_development
+# Web Development Journey
 In this repository, I'm sharing my journey in the Web Development, let's see what can I do. Catch you later...
+I'll try to share everything that I learn about Web, and I hope you enjoy it.
