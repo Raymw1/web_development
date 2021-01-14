@@ -38,4 +38,5 @@ Look at my hello world code in python:
     print("Hello, World!!!")
 ```
 
-I need to discover the code of emojis, like :code
+I need to discover the code of emojis, like :smile:
+Wow, i can discover it in github.com/ikatyang
