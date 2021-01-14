@@ -24,3 +24,18 @@ I can write __*to-do lists*__ like:
 
 - [ ] I need a lot to learn about Markdown
 - [ ] I need to improve my English, because it's terrible
+
+Language | Rate | Course
+---|---|---
+Javascript | 2 | Alone
+Python | 6 | CEV
+C | 7 | CS50
+
+I need to learn the difference between `let`, `var`, `const` in JS
+
+Look at my hello world code in python:
+```
+    print("Hello, World!!!")
+```
+
+I need to discover the code of emojis, like :code
