@@ -39,4 +39,7 @@ Look at my hello world code in python:
 ```
 
 I need to discover the code of emojis, like :smile:
-Wow, i can discover it in github.com/ikatyang
+
+Wow, i can discover it in github.com/ikatyang or in emojipedia.org
+
+- [ ] I need to read this markdown guide
