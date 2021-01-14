@@ -22,5 +22,5 @@ I can write __*unordered list*__ like:
 
 I can write __*to-do lists*__ like:
 
-- [x] I need a lot to learn about Markdown
-- [x] I need to improve my English, because it's terrible
+- [] I need a lot to learn about Markdown
+- [] I need to improve my English, because it's terrible
