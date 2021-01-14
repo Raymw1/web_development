@@ -42,4 +42,4 @@ I need to discover the code of emojis, like :smile:
 
 Wow, i can discover it in github.com/ikatyang or in emojipedia.org
 
-- [ ] I need to read this markdown guide
+- [ ] I need to read this markdown guide: https://github.com/gustavoguanabara/git-github/blob/master/manuais-PDF/guia-markdown.pdf
