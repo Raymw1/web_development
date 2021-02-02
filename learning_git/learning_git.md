@@ -77,3 +77,11 @@ git show <SHA>|Show diff vs. the SHA|$ git show fb738e…
 ### 2.1 - Signing up for GitHub
 
 - [x]  **Create a GitHub account**
+
+---
+
+### 2.2 - Remote repo
+
+`git remote add origin [https://github.com/](https://github.com/)<name>/website.git` ⇒ Add a remote repo
+
+`git push -u <loc> <br>` ⇒ Push branch to remote
