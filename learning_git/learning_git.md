@@ -1,6 +1,11 @@
 # Learning GIT
+
 Let's learn GIT, ok?
+
+For more information on Git, see the [official Git documentation](https://git-scm.com/)
+
 ---
+
 ## 1 - Getting started
 ### 1.1 - Installation and setup
 `which git`  ⇒ Verify if git is already installed
@@ -85,3 +90,23 @@ git show <SHA>|Show diff vs. the SHA|$ git show fb738e…
 `git remote add origin [https://github.com/](https://github.com/)<name>/website.git` ⇒ Add a remote repo
 
 `git push -u <loc> <br>` ⇒ Push branch to remote
+
+---
+
+### 2.3 - Adding a README
+
+- [x]  If you don't have, **create a README.md and edit it**
+
+- [x]  Then, **add, commit and push it**
+
+`git push` ⇒ A simple way to push
+
+---
+
+### 2.4 - Summary
+
+Command|Description|Example
+---|---|---
+git remote add|Add remote repo|$ `git remote add origin`
+git push -u <loc> <br>|Push branch to remote|$ `git push -u origin master`
+git push|Push to default remote|$ `git push`
