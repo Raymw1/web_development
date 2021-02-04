@@ -120,3 +120,11 @@ git push|Push to default remote|$ `git push`
 `touch <empty_folder>/.gitkeep` ⇒ To add an empty folder to the repository
 
 __\ in the command line__ to keep writing a command in a new line
+
+---
+
+### 3.2 - Ignoring files
+
+[x] Touch a _.gitignore_ file in the repository and put there in each line, every content that you want to be ignored
+
+---
