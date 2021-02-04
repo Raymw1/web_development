@@ -110,3 +110,13 @@ Command|Description|Example
 git remote add|Add remote repo|$ `git remote add origin`
 git push -u <loc> <br>|Push branch to remote|$ `git push -u origin master`
 git push|Push to default remote|$ `git push`
+
+---
+
+## 3 - Intermediate workflow
+
+### 3.1 - Commit, push, repeat
+
+`touch <empty_folder>/.gitkeep` ⇒ To add an empty folder to the repository
+
+__\ in the command line__ to keep writing a command in a new line
