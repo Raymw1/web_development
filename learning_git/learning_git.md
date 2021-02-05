@@ -130,3 +130,19 @@ __\ in the command line__ to keep writing a command in a new line
 ---
 
 ### 3.3 - Branching and Merging
+
+`git checkout -b <branch_name>` ⇒ Create a branch
+
+`git branch` ⇒ Display the branches, and in which them you are
+
+`git checkout <branch_name>` ⇒ Go to another branch
+
+`git diff main` ⇒ Display the differences between the branches and the master branch
+
+`git merge <branch_name>` ⇒ Update the main/master branch from another branch
+
+`git branch -d <branch_name>` ⇒ Delete an especific branch
+
+`git branch <new_branch_name>` ⇒ Create a branch, but stay in the master for a while
+
+`git branch -D <branch_name>` ⇒ Delete an especific branch even though it hasn't been merged into the master branch
