@@ -128,3 +128,5 @@ __\ in the command line__ to keep writing a command in a new line
 [x] Touch a _.gitignore_ file in the repository and put there in each line, every content that you want to be ignored
 
 ---
+
+### 3.3 - Branching and Merging
