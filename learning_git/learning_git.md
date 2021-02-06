@@ -146,3 +146,26 @@ __\ in the command line__ to keep writing a command in a new line
 `git branch <new_branch_name>` ⇒ Create a branch, but stay in the master for a while
 
 `git branch -D <branch_name>` ⇒ Delete an especific branch even though it hasn't been merged into the master branch
+
+---
+
+### 3.4 - Recovering from Errors
+
+`git checkout -f` or `git checkout —force` ⇒ Undo all the modifications before you commit
+
+`git checkout <commit_SHA>` ⇒ Check out other commits
+
+---
+
+
+File/Command|Description|Example
+---|---|---
+.gitignore|Tell Git which things to ignore|$ echo .DS_store >> .gitignore
+git checkout|Check out a branch|$ `git checkout master`
+git checkout -b|Check out & create a branch|$ `git checkout -b about-page`
+git branch|Display local branches|$ `git branch`
+git merge|Merge in a branch|$ `git merge about-page`
+git rebase|Do something possibly weird & confusing|See “Git Commit”
+git branch -d |Delete branch (if merged)|$ `git branch -d about-page`
+git branch -D|Delete branch (even if unmerged) (dangerous)|$ `git branch -D other-branch`
+git checkout -f|Force checkout, discarding changes (dangerous)|$ `git add -A && git checkout -f`
