@@ -169,3 +169,15 @@ git rebase|Do something possibly weird & confusing|See “Git Commit”
 git branch -d |Delete branch (if merged)|$ `git branch -d about-page`
 git branch -D|Delete branch (even if unmerged) (dangerous)|$ `git branch -D other-branch`
 git checkout -f|Force checkout, discarding changes (dangerous)|$ `git add -A && git checkout -f`
+
+---
+
+## 4 - Collaborations
+
+### 4.1 - Clone, push, pull
+
+`git clone https://github.com/example/ <remote_name>` ⇒ Clone a repo to the local disk
+
+`git pull` ⇒ Pull in changes from remote repository
+
+---
