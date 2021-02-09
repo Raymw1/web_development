@@ -181,3 +181,31 @@ git checkout -f|Force checkout, discarding changes (dangerous)|$ `git add -A && 
 `git pull` ⇒ Pull in changes from remote repository
 
 ---
+
+## 4.3 - Pushing branches
+
+`git push -u origin <branch>` ⇒ Push other branches 
+
+`git branch -a` ⇒ Display all the branches(remote branches too)
+
+`git push origin --delete <branch>` ⇒ Delete a remote branch
+
+---
+
+## 4.4 - Extras
+
+`git mv <file_name> <new_file_name>` ⇒ Rename the file
+
+`git rm <file_name>` ⇒ Delete a file
+
+---
+
+## 4.5 - Summary
+
+
+Command|Description|Example
+---|---|---
+git clone|<URL>	Copy repo (incl. full history) to local disk|$ `git clone https://ex.co/repo.git` 
+git pull|Pull in changes from remote repository|$ `git pull`
+git branch -a|List all branches|$ `git branch -a`
+git checkout|Check out remote branch and configure for push|$ `git checkout fix-trademark`
