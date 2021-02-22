@@ -74,11 +74,30 @@
         <h4>Search in Google</h4>
         <form action="https://www.google.com/search">   <!-- Put what to do-->
             <label for="q">What to search?</label>  <!-- Description refering to input-->
-            <input type="text" id="q" name="q" placeholder="Type here!">
+            <input type="text" id="q" name="q" placeholder="Type here!" required>
             <input type="submit" value="Search">
         </form>
-        
-
+        <hr>
+        <h3>Inputs</h3>
+        <form action="www.example.com">
+            <input type="text" name="firstname">
+            <input type="password" name="psw">
+            <input type="submit" value="Submit">
+            <br>
+            <input type="radio" name="gender" value="male">Male
+            <input type="radio" name="gender" value="female">Female
+            <input type="radio" name="gender" value="other">Other
+            <br>
+            <input type="checkbox" name="chck1">Number1
+            <input type="checkbox" name="chck2">Number2
+            <br>
+            <input type="color">
+            <br>
+            <input type="date" name="bday">
+            <input type="range" name="range1" min="0" max="10">
+            <input type="file" name="myFile">
+            <input type="search" name="googlesearch">
+        </form>
     
 </body>
 </html>

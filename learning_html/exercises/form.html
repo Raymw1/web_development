@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro da liga dos astronautas</title>
+</head>
+<body>
+    <form action="">
+        <label for="name">Nome: </label>
+        <input type="name" id="name" name="name" placeholder="Your name here!" required>
+        <br>
+        <br>
+        <label for="email">Email: </label>
+        <input type="email" name="email" id="email" placeholder="example@example.com">
+        <label for="psw"> - Senha: </label>
+        <input type="password" name="psw" id="psw" required>
+        <br>
+        <br>
+        <label for="bday">Data de nascimento: </label>
+        <input type="date" name="bday" id="bday">
+        <!-- FOTO -->
+        <br>
+        <br>
+        <label for="country">Nacionalidade: </label>
+        <input list="country" autocomplete="On">
+        <datalist id="country">
+            <option value="Russo">
+            <option value="Americano">
+            <option value="Brasileiro">
+        </datalist>
+        <label for="gender"> - Gênero: </label>
+        F <input type="radio" name="gender" id="gender" value="female">
+        M <input type="radio" name="gender" id="gender" value="male">
+    </form>
+</body>
+</html>
