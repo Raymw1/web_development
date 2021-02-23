@@ -8,31 +8,54 @@
 </head>
 <body>
     <form action="">
-        <label for="name">Nome: </label>
-        <input type="name" id="name" name="name" placeholder="Your name here!" required>
+        <div>
+            <label for="name">Nome: </label>
+            <input type="name" id="name" name="name" placeholder="Your name here!" required>
+        </div>
         <br>
+        <div>
+            <label for="email">Email: </label>
+            <input type="email" name="email" id="email" placeholder="example@example.com">
+            <label for="psw"> - Senha: </label>
+            <input type="password" name="psw" id="psw" required>
+        </div>
         <br>
-        <label for="email">Email: </label>
-        <input type="email" name="email" id="email" placeholder="example@example.com">
-        <label for="psw"> - Senha: </label>
-        <input type="password" name="psw" id="psw" required>
+        <div>
+            <label for="bday">Data de nascimento: </label>
+            <input type="date" name="bday" id="bday"> - 
+            <label for="picture">Foto: </label>
+            <input type="file" name="picture">
+        </div>
         <br>
+        <div>
+            <label for="country">Nacionalidade: </label>
+            <select name="country" id="country">
+                <option value="Russo">Russo</option>
+                <option value="Americano">Americano</option>
+                <option value="Brasileiro">Brasileiro</option>
+            </select> - 
+            <label for="gender">Gênero: </label>
+            <label for="female">F</label>
+            <input type="radio" name="gender" id="female" value="female">
+            <label for="male">M</label>
+            <input type="radio" name="gender" id="male" value="male">
+        </div>
         <br>
-        <label for="bday">Data de nascimento: </label>
-        <input type="date" name="bday" id="bday">
-        <!-- FOTO -->
+        <div>
+            Suas principais qualidades: <br>
+            <label for="int">Inteligência</label>
+            <input type="checkbox" name="int" id="int"> |
+            <label for="res">Resiliência</label>
+            <input type="checkbox" name="res" id="res"> |
+            <label for="pf">Preparo Físico</label>
+            <input type="checkbox" name="pf" id="pf"> |
+            <label for="Edu">Educação</label>
+            <input type="checkbox" name="edu" id="edu"> |
+        </div>
         <br>
+        <textarea name="description" id="description" cols="30" rows="10" placeholder="Porque você gostaria de ser astronauta?"></textarea>
         <br>
-        <label for="country">Nacionalidade: </label>
-        <input list="country" autocomplete="On">
-        <datalist id="country">
-            <option value="Russo">
-            <option value="Americano">
-            <option value="Brasileiro">
-        </datalist>
-        <label for="gender"> - Gênero: </label>
-        F <input type="radio" name="gender" id="gender" value="female">
-        M <input type="radio" name="gender" id="gender" value="male">
+        <input type="submit" value="Criar">
     </form>
 </body>
 </html>
