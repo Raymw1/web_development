@@ -90,30 +90,41 @@
             </section>
             <hr>
             <section>
-                <form action="www.example.com">
-                    <input type="text" name="firstname">
-                    <input type="password" name="psw">
-                    <input type="submit" value="Submit">
+                <form action="www.example.com" method="post">
+                    <input type="text" name="firstname" placeholder="Name">
+                    <input type="password" name="psw" placeholder="Password">
                     <br>
-                    <input type="radio" name="gender" value="male">Male
+                    <input type="radio" name="gender" value="male" checked>Male
                     <input type="radio" name="gender" value="female">Female
                     <input type="radio" name="gender" value="other">Other
                     <br>
                     <input type="checkbox" name="chck1">Number1
                     <input type="checkbox" name="chck2">Number2
                     <br>
-                    <input type="color">
+                    <input type="color" name="cor">
                     <br>
                     <input type="date" name="bday">
                     <input type="range" name="range1" min="0" max="10">
                     <input type="file" name="myFile">
                     <input type="search" name="googlesearch">
+                    <br>
+                    <select name="estado" id="estado">
+                        <option value="RJ" selected>Rio de Janeiro</option>
+                        <option value="SP">São Paulo</option>
+                    </select>
+                    <br>
+                    <textarea name="test" id="test" cols="30" rows="10" placeholder="Type here"></textarea>
+                    <input type="reset"  value="Reset">
+                    <input type="submit" value="Submit">
                 </form>
             </section>
             <h3>Inputs</h3>
             <hr>
             <h3>Semantics Elements</h3>
             <a href="https://www.w3schools.com/html/html5_semantic_elements.asp" title="Check semantics" target="_blank">Click here</a>
+            <hr>
+            <h3>Tips</h3>
+            <p>Do you wanna know which tags work in some browser? <a href="https://caniuse.com" target="_blank">Click here</a></p>
     </main>
     
     
