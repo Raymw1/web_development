@@ -22,7 +22,7 @@
             <p>It's a paragraph</p>
         </section>
         <hr> <!--Divisória-->
-        <p>To use <strong>bold(semantic)</strong>, just do it! . To use <em>italic(semantic)</em>, just do it! <mark>Like this</mark>! <small>Or like this!</small> <del>Or this!</del> <ins>Text inserted!</ins>. log<sub>10</sub> 1 ! 2<sup>4</sup>=16</p>
+        <p>To use <strong>bold(semantic)</strong>, just do it! . To use <em>italic(semantic)</em>, just do it! <mark style="background-color: lime">Like this</mark>! <small>Or like this!</small> <del>Or this!</del> <ins>Text inserted!</ins>. log<sub>10</sub> 1 ! 2<sup>4</sup>=16</p>
         <p>You can do <b>like this, too(no semantic)</b>. <i>Like this(no semantic)</i>. To scratch an word, <s>just do it!</s>. <u>Text inserted</u></p>
         <hr>
         <section>   <!--It's a block that you can organize your content-->
@@ -30,13 +30,13 @@
             <p>You can create lists just li,ke this:</p>
             <br>
             <h4>Unordered list</h4>
-            <ul>
+            <ul type="square">    <!-- Type: disc, circle, square-->
                 <li>First element</li>
                 <li>Second element</li>
                 <li>Third element</li>
             </ul>
             <h4>Ordered list</h4>
-            <ol>
+            <ol type="1" start="3"> <!-- Use type if you want to use roman numbers or letters-->
                 <li>One item</li>
                 <li>Two items</li>
                 <li>Three items</li>
@@ -147,6 +147,23 @@
             <hr>
             <h3>Icons</h3>
             <p>Use <a href="iconarchive.com" target="_blank">Icon Archive</a> or <a href="favicon.cc" target="_blank">Fav Icon</a></p>
+            <hr>
+            <h3>Other formatations</h3>
+            <p>To write a code like <code>&lt;p&gt;Hello&lt;/p&gt;</code> use <code>&lt;code&gt;</code></p>
+            <pre>You can use <code>&lt;pre&gt;</code>
+to write in several lines
+like this</pre>
+            <h4>Quotations</h4>
+            <p><q>Is your dad a baker, bacause you're a dream!  </q>. Use &lt;q&gt; to quotations</p>
+            <p>Accordin to Gustavo Guanabara: </p>
+            <blockquote cite="https://www.youtube.com/watch?v=4ynvsrkamt8&list=PLHz_AreHm4dkZ9-atkcmcBaMZdmLHft8n&index=25">
+                O texto invertido é porque em algumas linguas o texto é exibido nessa direção, então se precisar de textos
+                nessas linguas no meio do seu texto em rtl, essa tag seria útil
+            </blockquote>
+            <hr>
+            <p>You can abbreviate words like this, too: <abbr title="HyperText Markup Language">HTML</abbr> and 
+                <abbr title="Cascading Style Sheets">CSS</abbr></p>
+            <p>And you can invert a text using &lt;bdo&gt; like this: <bdo dir="rtl">Hello, World</bdo></p>
     </main>
     
     
