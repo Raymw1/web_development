@@ -1,0 +1,6 @@
+.gradients {
+    width: 100px;
+    height: 100px;
+    background-image: linear-gradient(to right, #ffd500, #1b1b1b 80%);
+    /* background-image: radial-gradient(circle, #ffd500, #1b1b1b); */
+}
