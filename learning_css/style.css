@@ -4,3 +4,24 @@
     background-image: linear-gradient(to right, #ffd500, #1b1b1b 80%);
     /* background-image: radial-gradient(circle, #ffd500, #1b1b1b); */
 }
+
+.font-families {
+    font-family: 'Courier New';
+    /*                  Arial, Helvetica, Verdana           monospace, serif, sans-serif, cursive */
+    font-size: 18px;
+    font-weight: 400; /* 100 - 900*/
+    /* lighter normal bold bolder  */
+    font-style: italic;
+    text-decoration: underline;
+}
+
+.font-families h2 {
+    /*  SHOTHAND  */
+    /* font-style ---> font-weight ---> font-size ---> font-family  */
+    font: normal normal 2em  'Work Sans', sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+.font-families h3 {
+    font-family: 'Zen Dots', cursive;
+}
