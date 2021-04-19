@@ -1,3 +1,6 @@
+/* CLASS    =     .         (Several elements)
+    ID            =     #         (1 element)*/
+
 .gradients {
     width: 100px;
     height: 100px;
@@ -24,4 +27,46 @@
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
 .font-families h3 {
     font-family: 'Zen Dots', cursive;
+}
+
+@font-face {    /* Uploading an external font */
+    font-family: "London";
+    src: url("fonts/Olondon_.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    /* formats: opentype(otf), trueype (ttf), embedded-opentype, truetype-aat, svg */
+}
+.external-fonts {
+    font-family: "London";
+    font-size: 26px;
+}
+
+/* ALIGNING TEXTS */
+h1 {
+    text-align: center;
+}
+
+p {
+    text-indent: 1px;
+}
+
+#pseudoclass div {
+    display: inline-block;
+    background-color: lightgray;
+    border: 1px solid black;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+}
+
+#pseudoclass div:hover {
+    background-color: #ffd500;
+}
+
+#pseudoclass div p {
+    display: none;  /*HIDE element*/
+}
+
+#pseudoclass div:hover p {
+    display: block;     /* Show element*/
 }
