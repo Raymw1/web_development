@@ -1,14 +1,14 @@
 /* CLASS    =     .         (Several elements)
     ID            =     #         (1 element)*/
 
-.gradients {
+.cev .gradients {
     width: 100px;
     height: 100px;
     background-image: linear-gradient(to right, #ffd500, #1b1b1b 80%);
     /* background-image: radial-gradient(circle, #ffd500, #1b1b1b); */
 }
 
-.font-families {
+.cev .font-families {
     font-family: 'Courier New';
     /*                  Arial, Helvetica, Verdana           monospace, serif, sans-serif, cursive */
     font-size: 18px;
@@ -18,14 +18,14 @@
     text-decoration: underline;
 }
 
-.font-families h2 {
+.cev .font-families h2 {
     /*  SHOTHAND  */
     /* font-style ---> font-weight ---> font-size ---> font-family  */
     font: normal normal 2em  'Work Sans', sans-serif;
 }
 
 @import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
-.font-families h3 {
+.cev .font-families h3 {
     font-family: 'Zen Dots', cursive;
 }
 
@@ -36,21 +36,22 @@
     font-style: normal;
     /* formats: opentype(otf), trueype (ttf), embedded-opentype, truetype-aat, svg */
 }
-.external-fonts {
+
+.cev .external-fonts {
     font-family: "London";
     font-size: 26px;
 }
 
 /* ALIGNING TEXTS */
-h1 {
+.cev h1 {
     text-align: center;
 }
 
-p {
+.cev p {
     text-indent: 1px;
 }
 
-#pseudoclass div {
+.cev #pseudoclass div {
     display: inline-block;
     background-color: lightgray;
     border: 1px solid black;
@@ -59,14 +60,31 @@ p {
     width: 200px;
 }
 
-#pseudoclass div:hover {
+.cev #pseudoclass div:hover {
     background-color: #ffd500;
 }
 
-#pseudoclass div p {
+.cev #pseudoclass div p {
     display: none;  /*HIDE element*/
 }
 
-#pseudoclass div:hover p {
+.cev #pseudoclass div:hover p {
     display: block;     /* Show element*/
 }
+
+.rocket #container {
+    width: 480px;
+    margin: 20px;
+}
+
+.rocket h1#test {
+    color: #8464E6;
+    background-color: #202024;
+    font-size: 40px;
+    text-decoration-color: #E1E1E6;
+    text-decoration-line: underline;
+}
+/* using IMPORTANT  (AVOID)
+.rocket h1 {
+    color: green !important;
+} */
