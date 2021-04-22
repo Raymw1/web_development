@@ -22,3 +22,11 @@ let myArray = [
     2,
     3
 ]
+
+var myVar = "Minha variável"
+myVar = "My first var"
+let dinamicType = ""
+// let mySecondVar = "My first var. But not!"
+// console.log(mySecondVar)
+console.log(myVar)
+console.log(typeof dinamicType)
