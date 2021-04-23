@@ -52,6 +52,30 @@
         <li>const(scope)</li>
     </ul>
     <p>In the name, ou <strong>can't</strong> begin with numbers and type spaces</p>
-    <script src="script.js"></script>
+    <p>To use variables in string, do this: <code><mark>`Some text <span style="color: gray;">${}</span> more text`</mark></code></p>
+    <hr>
+    <h2>Funtions</h2>
+    <h3>Function Statement</h3>
+    <p><code><mark>function nameFunction() {    code here   }</mark></code></p>
+    <h3>Function Expression</h3>
+    <p>Or anonymous function: <code><mark>const nameFunction = function(parameters) {   code here   }</mark></code></p>
+    <h3>Function Scope</h3>
+    <p>Be sure, to use <strong>parameters</strong> and <strong>variables</strong> in functions correctly!</p>
+    <h3>Function Hoisting</h3>
+    <p>NOTE: If you want to run a function and create it later, you can't use a function Expression. You just can use a <strong>function statement</strong>.</p>
+    <h3>Arrow Function</h3>
+    <p>To use a arrow function, do this: <code><mark>const myArrowFunction = (parameters) => {  code here   }</mark></code></p>
+    <h3>Callback Function</h3>
+    <p>Example of a callback function:</p>
+    <code><pre><mark>function myCallback(cb) {
+    // console.log(cb);
+    cb();
+}
+myCallback(
+    () => {
+        console.log("I'm in a Callback");
+    }
+);</mark></pre></code>
+    <script src="scripts/script.js"></script>
 </body>
 </html>
