@@ -7,75 +7,94 @@
     <title>Learning JavaScript</title>
 </head>
 <body>
-    <h1>Learning JavaScript</h1>
-    <h2>Hello, World!!</h2>
-    <p>Type in the <em>DevTools</em> or in a js file: <code>console.log("Hello, World!")</code></p>
-    <h2>Datatypes</h2>
-    <ul>
-        <li>String</li>
-        <li>Numbers
+    <header>
+        <h1>Learning JavaScript</h1>
+    </header>
+    <main>
+        <h2>Hello, World!!</h2>
+        <p>Type in the <em>DevTools</em> or in a js file: <code>console.log("Hello, World!")</code></p>
+        <section>
+            <h2>Datatypes</h2>
             <ul>
-                <li>Integer</li>
-                <li>Float</li>
-                <li>NaN</li>
-                <li>Infinity</li>
+                <li>String</li>
+                <li>Numbers
+                    <ul>
+                        <li>Integer</li>
+                        <li>Float</li>
+                        <li>NaN</li>
+                        <li>Infinity</li>
+                    </ul>
+                </li>
+                <li>Boolean(True || False)</li>
+                <li>Undefined</li>
+                <li>Null</li>
+                <li>Objects<pre><code><mark>let myObject = {
+        name: "Rayan",
+        age: 17, 
+        genre: "Male",
+        walk: function() {
+            console.log("Walking...")
+            }
+    }</mark></code></pre>
+                </li>
+                <li>Arrays<pre><code><mark>let myArray = [
+            "Milk",
+            "Eggs",
+            "Donuts",
+            2,
+            3
+    ]</mark></code></pre>
+                </li>
             </ul>
-        </li>
-        <li>Boolean(True || False)</li>
-        <li>Undefined</li>
-        <li>Null</li>
-        <li>Objects<pre><code><mark>let myObject = {
-    name: "Rayan",
-    age: 17, 
-    genre: "Male",
-    walk: function() {
-        console.log("Walking...")
+            <p>Learn more about it here: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects" target="_blank">Standard built-in objects</a></p>
+        </section>
+        <hr>
+        <section>
+            <h2>Variables</h2>
+            <p>You can create it using:</p>
+            <ul>
+                <li>var(global)</li>
+                <li>let(scope)</li>
+                <li>const(scope)</li>
+            </ul>
+            <p>In the name, ou <strong>can't</strong> begin with numbers and type spaces</p>
+            <p>To use variables in string, do this: <code><mark>`Some text <span style="color: gray;">${}</span> more text`</mark></code></p>
+        </section>
+        <hr>
+        <section>
+            <h2>Funtions</h2>
+            <h3>Function Statement</h3>
+            <p><code><mark>function nameFunction() {    code here   }</mark></code></p>
+            <h3>Function Expression</h3>
+            <p>Or anonymous function: <code><mark>const nameFunction = function(parameters) {   code here   }</mark></code></p>
+            <h3>Function Scope</h3>
+            <p>Be sure, to use <strong>parameters</strong> and <strong>variables</strong> in functions correctly!</p>
+            <h3>Function Hoisting</h3>
+            <p>NOTE: If you want to run a function and create it later, you can't use a function Expression. You just can use a <strong>function statement</strong>.</p>
+            <h3>Arrow Function</h3>
+            <p>To use a arrow function, do this: <code><mark>const myArrowFunction = (parameters) => {  code here   }</mark></code></p>
+            <h3>Callback Function</h3>
+            <p>Example of a callback function:</p>
+            <code><pre><mark>function myCallback(cb) {
+        // console.log(cb);
+        cb();
     }
-}</mark></code></pre>
-        </li>
-        <li>Arrays<pre><code><mark>let myArray = [
-    "Milk",
-    "Eggs",
-    "Donuts",
-    2,
-    3
-]</mark></code></pre>
-        </li>
-    </ul>
-    <p>Learn more about it here: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects" target="_blank">Standard built-in objects</a></p>
-    <hr>
-    <h2>Variables</h2>
-    <p>You can create it using:</p>
-    <ul>
-        <li>var(global)</li>
-        <li>let(scope)</li>
-        <li>const(scope)</li>
-    </ul>
-    <p>In the name, ou <strong>can't</strong> begin with numbers and type spaces</p>
-    <p>To use variables in string, do this: <code><mark>`Some text <span style="color: gray;">${}</span> more text`</mark></code></p>
-    <hr>
-    <h2>Funtions</h2>
-    <h3>Function Statement</h3>
-    <p><code><mark>function nameFunction() {    code here   }</mark></code></p>
-    <h3>Function Expression</h3>
-    <p>Or anonymous function: <code><mark>const nameFunction = function(parameters) {   code here   }</mark></code></p>
-    <h3>Function Scope</h3>
-    <p>Be sure, to use <strong>parameters</strong> and <strong>variables</strong> in functions correctly!</p>
-    <h3>Function Hoisting</h3>
-    <p>NOTE: If you want to run a function and create it later, you can't use a function Expression. You just can use a <strong>function statement</strong>.</p>
-    <h3>Arrow Function</h3>
-    <p>To use a arrow function, do this: <code><mark>const myArrowFunction = (parameters) => {  code here   }</mark></code></p>
-    <h3>Callback Function</h3>
-    <p>Example of a callback function:</p>
-    <code><pre><mark>function myCallback(cb) {
-    // console.log(cb);
-    cb();
-}
-myCallback(
-    () => {
-        console.log("I'm in a Callback");
-    }
-);</mark></pre></code>
+    myCallback(
+        () => {
+            console.log("I'm in a Callback");
+        }
+    );</mark></pre></code>
+        </section>
+        <section>
+            <h2>Manipulating Data</h2>
+            <h3>Prototype</h3>
+            <p><mark>__proto__</mark> == <strong>Prototype</strong></p>
+            <h3>Type Conversion X Type Coersion</h3>
+            <p>Convert a DataType</p>
+            
+
+        </section>
+    </main>
     <script src="scripts/script.js"></script>
 </body>
 </html>
