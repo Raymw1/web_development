@@ -51,7 +51,7 @@
     text-indent: 1px;
 }
 
-.cev #pseudoclass div {
+.cev .pseudoclass div {
     display: inline-block;
     background-color: lightgray;
     border: 1px solid black;
@@ -60,19 +60,19 @@
     width: 200px;
 }
 
-.cev #pseudoclass div:hover {
+.cev .pseudoclass div:hover {
     background-color: #ffd500;
 }
 
-.cev #pseudoclass div p {
+.cev .pseudoclass div p {
     display: none;  /*HIDE element*/
 }
 
-.cev #pseudoclass div:hover p {
+.cev .pseudoclass div:hover p {
     display: block;     /* Show element*/
 }
 
-.cev #pseudoclass div:active {
+.cev .pseudoclass div:active {
     background-color: green;
 }
 
@@ -102,3 +102,24 @@
 .rocket h1 {
     color: green !important;
 } */
+
+#box-model {
+    width: 150px;
+    height: 100px;
+    margin: 10%;
+    padding: 0 20px;
+    box-sizing: border-box; /* Widht and height fixed */
+    border: 1px dashed red;
+}
+
+#displays h3 {
+    width: 183px;
+    border-bottom: 1px solid red;
+}
+
+#displays div {
+    display: inline;
+    background-color: lightgray;
+    border: 1px solid black;
+}
+
