@@ -125,9 +125,12 @@
                     <input type="text" name="firstname" placeholder="Name">
                     <input type="password" name="psw" placeholder="Password">
                     <br>
-                    <input type="radio" name="gender" value="male" checked>Male
-                    <input type="radio" name="gender" value="female">Female
-                    <input type="radio" name="gender" value="other">Other
+                    <fieldset>
+                        <legend>Genre</legend>
+                        <input type="radio" name="gender" value="male" checked>Male
+                        <input type="radio" name="gender" value="female">Female
+                        <input type="radio" name="gender" value="other">Other
+                    </fieldset>
                     <br>
                     <input type="checkbox" name="chck1">Number1
                     <input type="checkbox" name="chck2">Number2
@@ -136,13 +139,33 @@
                     <br>
                     <input type="date" name="bday">
                     <input type="range" name="range1" min="0" max="10">
-                    <input type="file" name="myFile">
+                    <input type="file" name="myFile" accept="video/*" multiple>
                     <input type="search" name="googlesearch">
                     <br>
                     <select name="estado" id="estado">
-                        <option value="RJ" selected>Rio de Janeiro</option>
-                        <option value="SP">São Paulo</option>
+                        <optgroup label="Sudeste">
+                            <option value="RJ" selected>Rio de Janeiro</option>
+                            <option value="SP">São Paulo</option>
+                        </optgroup>
+                        <optgroup label="Outros">
+                            <option value="BA">Bahia</option>
+                            <option value="AM">Amazonas</option>
+                        </optgroup>
                     </select>
+                    <br>
+                    <input type="text" list="carsdata" placeholder="Choose a car">
+                    <datalist id="carsdata">
+                        <option value="mustang">Mustang</option>
+                        <option value="ferrari">Ferrari</option>
+                        <option value="fusca">Fusca</option>
+                        <option value="opala">Opala</option>
+                    </datalist>
+                    <input type="color" list="colorsdata">
+                    <datalist id="colorsdata">
+                        <option>#ff0000</option>
+                        <option>#00ff00</option>
+                        <option>#0000ff</option>
+                    </datalist>
                     <br>
                     <textarea name="test" id="test" cols="30" rows="10" placeholder="Type here"></textarea>
                     <input type="reset"  value="Reset">
