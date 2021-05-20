@@ -123,3 +123,14 @@
     border: 1px solid black;
 }
 
+#font-rs p {
+    font-variant: small-caps;
+    font-stretch: expanded;
+    letter-spacing: 8px;
+    word-spacing: 16px;
+    line-height: 1.5em;
+    text-transform: capitalize;
+    text-decoration: underline dashed red;
+    text-align: center;
+    text-shadow: 2px 2px 8px red;
+}
