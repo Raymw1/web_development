@@ -123,7 +123,7 @@
     border: 1px solid black;
 }
 
-#font-rs p {
+#font-rs > p {  /* CHILDS */
     font-variant: small-caps;
     font-stretch: expanded;
     letter-spacing: 8px;
@@ -134,3 +134,58 @@
     text-align: center;
     text-shadow: 2px 2px 8px red;
 }
+
+#font-rs h3 + p {   /* SIBLINGS */
+    color: rgb(255, 158, 158);
+}
+
+/* --------------- PSEUDOCLASSES ------------------ */
+
+#pc-rs ul li:first-child {
+    color: yellow;
+}
+
+
+#pc-rs ul li:nth-of-type(2) {
+    color: green;
+}
+
+#pc-rs ul li:nth-child(3){
+    color: brown;
+}
+
+#pc-rs ul li:nth-child(odd){
+    text-decoration: line-through;
+}
+
+#pc-rs ul li:nth-child(odd):hover{
+    cursor: cell;
+}
+
+#pc-rs ul li:nth-child(even){
+    text-decoration: underline dashed;
+}
+
+#pc-rs input:disabled {
+    background-color: blueviolet;
+}
+
+#pc-rs input:required {
+    color: #ffd500;
+    font-weight: bold;
+}
+
+#pc-rs ul::first-line{
+    font-weight: bold;
+}
+
+#pc-rs ul li::before{
+    content: "=> ";
+}
+
+#pc-rs ul li::after{
+    content: " <=";
+}
+
+
+
