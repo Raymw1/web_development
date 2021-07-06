@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+  <%- include('../templates/head') %>
+  <body class="container">
+    <%- include('../templates/header') %>
+    <main class="container-fluid bg-light">
+      <div>
+        <h1>Node with EJS</h1>
+        <p>Let's learn to work with EJS files</p>
+        <p><%= subtitle %></p>
+      </div>
+      <ul>
+        <% items.forEach(item => { %>
+        <li><strong><%= item.title %></strong> <%= item.message %></li>
+        <% }) %>
+      </ul>
+    </main>
+    <%- include('../templates/footer') %>
+  </body>
+</html>
