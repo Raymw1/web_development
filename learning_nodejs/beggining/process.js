@@ -1,0 +1,1 @@
+console.log(`O ${process.argv[2]} é TOPZERA`)
